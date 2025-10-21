@@ -2,8 +2,9 @@
 # See https://wiki.hypr.land/Configuring/Variables/#input
 input {
   # Use multiple keyboard layouts and switch between them with Left Alt + Right Alt
-  kb_layout = us,th
-  kb_options = compose:caps,grp:ctrl_space_toggle # switch layouts with Ctrl+Space
+  # kb_layout = us,dk,eu
+  kb_layout = us
+  kb_options = compose:caps # ,grp:shifts_toggle
 
   # Change speed of keyboard repeat
   repeat_rate = 40
